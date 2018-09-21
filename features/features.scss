@@ -1,0 +1,53 @@
+.features {
+
+  &__container {
+    background-color: #f5f5f5;
+    /* width: 590px;*/
+  }
+
+  &__list {
+    margin: 0 auto;
+    padding-left: 0;
+
+  }
+
+  &__list-item {
+    list-style-type: none;
+    /* margin: 40px;*/
+  }
+
+  &__item-image {}
+
+  &__heading {
+    color: #384048;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(41, 49, 57, 0.06);
+    padding-bottom: 15px;
+  }
+
+  &__text {
+    width: 168px;
+    height: 37px;
+    color: #787b80;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  &__link {
+    text-decoration: none;
+    width: 99px;
+    height: 10px;
+    color: #50c3af;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+}

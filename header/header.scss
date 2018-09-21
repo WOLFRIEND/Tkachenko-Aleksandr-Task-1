@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Belinda;
+  src: url("../fonts/belinda/belinda.otf");
+}
+
+.header {
+  background: url("../img/background_header.png") center/cover no-repeat;
+  /*  height: 680px;*/
+
+
+
+
+  &__logo {
+
+    font-family: Belinda;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+
+
+  &__navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-bottom: 50px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  &__list-link {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  &__heading {
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+
+  }
+
+  &__tagline {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  &__button {
+    background-color: #50c3af;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 235px;
+    height: 48px;
+    margin: 90px;
+
+  }
+
+  .button:hover {
+    background-color: #4FB09C;
+  }
+
+
+}

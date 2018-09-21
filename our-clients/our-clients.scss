@@ -1,0 +1,77 @@
+.our-clients {
+  background-color: #50c3af;
+  padding: 6rem 0 7rem 0;
+  height: 221px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    padding-left: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 6.5rem;
+
+
+    &:before {
+      content: url("../img/star.png");
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0.1rem;
+    }
+
+    &:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 35px;
+      top: 2rem;
+      width: 22rem;
+      height: 0.2rem;
+      opacity: 0.2;
+      background: #fff;
+      margin-top: 1rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__list-item {
+    margin: 0 1.9rem 5rem 1.9rem;
+    font-size: 2.6rem;
+    color: #fff;
+    opacity: 0.6;
+    list-style-type: none;
+
+    &:nth-child(1) {
+      font-family: 'Belinda', serif;
+    }
+
+    &:nth-child(2) {
+      font-family: 'NexaRegular', sans-serif;
+      font-weight: 200;
+    }
+
+    &:nth-child(3) {
+      font-family: 'Cabin', sans-serif;
+    }
+
+    &:nth-child(4) {
+      font-family: 'NexaHeavy', serif;
+    }
+  }
+
+
+
+}

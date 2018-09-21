@@ -1,0 +1,44 @@
+.support-template {
+  margin: 0 auto;
+  background-color: #eaeaeb;
+
+
+  &__heading {
+    margin: 0 auto;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(41, 49, 57, 0.06);
+    padding-bottom: 15px;
+  }
+
+  &__heading:before {
+    content: url("../img/round.png");
+    margin-right: 10px;
+
+  }
+
+  &__text {
+    font-family: "PT Sans";
+    color: #787b80;
+    font-size: 14px;
+  }
+
+  &__button {
+    width: 10rem;
+    height: 3.5rem;
+  }
+
+  &__button {
+    background-color: #d2d5da;
+    border: none;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 98px;
+    height: 35px;
+  }
+
+}
